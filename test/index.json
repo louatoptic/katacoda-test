@@ -12,7 +12,7 @@
           "chmod": "+rwx"
         }
       ]
-    }
+    },
     "steps": [
       {
         "title": "Step 1",
