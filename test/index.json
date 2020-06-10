@@ -4,6 +4,15 @@
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
+    "assets": {
+      "host01": [
+        { 
+          "file": "watch.db",
+          "target": "/app/watch.db",
+          "chmod": "+rwx"
+        }
+      ]
+    }
     "steps": [
       {
         "title": "Step 1",
