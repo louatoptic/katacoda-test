@@ -8,7 +8,7 @@
       "host01": [
         { 
           "file": "db.json",
-          "target": "/app/db.json",
+          "target": "db.json",
           "chmod": "+rwx"
         }
       ]

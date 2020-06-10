@@ -6,4 +6,4 @@ Start by installing the Optic CLI, a sample API ([`json-server` by typicode](htt
 
 Then, give the json-server a quick check. Run the server and try to view the `/posts` route:
 
-`json-server --watch /app/db.json --listen http://localhost:3001`{{execute "HOST1"}}
+`json-server --watch db.json --port 34444`{{execute "HOST1"}}
