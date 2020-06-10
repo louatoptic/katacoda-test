@@ -7,8 +7,8 @@
     "assets": {
       "host01": [
         { 
-          "file": "watch.db",
-          "target": "/app/watch.db",
+          "file": "db.json",
+          "target": "/app/db.json",
           "chmod": "+rwx"
         }
       ]
@@ -46,7 +46,7 @@
     "uilayout": "terminal-iframe"
   },
   "backend": {
-    "imageid": "nodejs:12",
+    "imageid": "javascript",
     "port": "34444"
   }
 }
