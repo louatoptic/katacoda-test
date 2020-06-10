@@ -6,4 +6,6 @@ Start by installing the Optic CLI, a sample API ([`json-server` by typicode](htt
 
 Then, give the json-server a quick check. Run the server and try to view the `/posts` route:
 
-`json-server --watch db.json --port 34444`{{execute "HOST1"}}
+`json-server --watch db.json --port 34444 --host 0.0.0.0`{{execute "HOST1"}}
+
+You should see the a landing page for JSON Server on the Dashboard tab. You may have to ask Katacoda nicely to show it on port 34444 by clicking a button.
